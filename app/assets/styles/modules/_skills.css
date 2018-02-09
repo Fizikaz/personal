@@ -1,0 +1,28 @@
+.skills {
+	
+&-list {
+    display: flex;
+    flex-wrap: wrap;
+	 margin: 0;
+    
+}
+    
+ &-list__icon {
+	  padding: 5px 5px 5px 0px;
+	  font-size: 3rem;
+	  margin: 10px;
+ }
+	
+	&__title {
+		margin-bottom: 0;
+	}
+	
+	&__subheading {
+		font-size: 1.35rem;
+		font-weight: 500;
+		font-family: "Saira Extra Condensed", serif;
+		text-transform: uppercase;
+		margin-bottom: 1rem;
+		color: #868e96;
+	}
+}

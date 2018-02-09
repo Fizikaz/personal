@@ -1,0 +1,8 @@
+@import "base/_mixins";
+@import "modules/_education";
+@import "base/_global";  
+@import "modules/_navbar";
+@import "modules/_wrapper";
+@import "modules/_skills";
+@import "modules/_interests";
+@import "modules/_about";

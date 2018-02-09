@@ -1,0 +1,47 @@
+.education {
+	
+    
+    &__title {
+		  margin-bottom: 1rem;
+    }
+    
+    &__heading {
+        padding-bottom: 0;
+		  margin-bottom: 3px;
+    }
+    
+    &__subheading {
+        margin: 0 auto;
+        color: gray;
+    }
+	
+	&__text {
+		color: gray;
+	}
+	
+	&__section {
+      display: block;
+		
+		@mixin atSmall {		
+		display: flex;
+		}
+	}
+	
+	&__subsection {
+ 		flex: 1;
+	}
+	
+	&__section-text {
+		font-style: italic;
+		color: #bd5d38;
+		
+		@mixin atSmall {
+		float: right;
+		padding: 3rem;
+		}
+	}
+	
+	&__courses-completed {
+		margin-bottom: 0.5rem;
+	}
+} 

@@ -1,0 +1,42 @@
+html, body {
+    background: #fff;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+	 margin: 0;
+	 color: #868e96;
+}
+
+.contact-icons {
+    text-align: left;
+	 display: flex;
+    
+    & li {
+    padding: 10px 15px 10px 0px;
+    color: #495057;
+    }
+}
+
+ul {
+    list-style: none;
+    display: inline;
+    padding: 0;
+}
+
+a:-webkit-any-link {
+    color: inherit;
+}
+
+h2 {
+	font-family: "Saira Extra Condensed", serif;
+	font-size: 3.5rem;
+	color:  #343a40;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: "Saira Extra Condensed", serif;
+	font-size: 1.75rem;
+	text-transform: uppercase;
+	color:  #343a40;
+}

@@ -1,0 +1,14 @@
+.wrapper {
+    padding: 1rem;
+	 
+    
+    @mixin atSmall {
+    padding-left: 320px;
+    padding-right: 48px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;       
+    }
+} 
+
