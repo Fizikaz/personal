@@ -83,6 +83,11 @@ html, body {
     color: #495057;
     }
 
+.contact-icons a {
+	text-decoration:none;
+	color: #495057;
+	}
+
 ul {
     list-style: none;
     display: inline;
@@ -107,6 +112,12 @@ h3 {
 	text-transform: uppercase;
 	color:  #343a40;
 }
+
+/*
+*|*link {
+	color: #495057;
+}
+*/
 
 .navbar {
 	 background-color: #bd5d38;
@@ -182,6 +193,7 @@ h3 {
 
 .navbar__item a {
         text-decoration: none;
+		  color: inherit;
     }
 
 .navbar__item a:hover {

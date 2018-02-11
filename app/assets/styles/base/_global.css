@@ -14,6 +14,11 @@ html, body {
     padding: 10px 15px 10px 0px;
     color: #495057;
     }
+	
+	& a {
+	text-decoration:none;
+	color: #495057;
+	}
 }
 
 ul {
@@ -40,3 +45,9 @@ h3 {
 	text-transform: uppercase;
 	color:  #343a40;
 }
+
+/*
+*|*link {
+	color: #495057;
+}
+*/
